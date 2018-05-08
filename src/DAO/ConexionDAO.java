@@ -23,7 +23,7 @@ public class ConexionDAO {
         try {
 
             String USER = "di";
-            String PASSWROD = "Pa$$w0rd";
+            String PASSWROD = "";
             String URL = "jdbc:sqlserver://172.24.144.79;databaseName=SISMOON";
             String DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
             Class.forName(DRIVER);
@@ -57,7 +57,7 @@ public class ConexionDAO {
         try {
 
             String USER = "User_sde";
-            String PASSWROD = "mt@2016";
+            String PASSWROD = "";
             String URL = "jdbc:sqlserver://172.24.148.5;databaseName=SDE";
             String DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 
@@ -92,7 +92,7 @@ public class ConexionDAO {
         try {
 
             String USER = "User_SistemasDI";
-            String PASSWROD = "Pas$_SDI_W0rd";
+            String PASSWROD = "";
             String URL = "jdbc:sqlserver://172.24.144.18;databaseName=Sistemas_DI";
             String DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 
@@ -145,7 +145,7 @@ public class ConexionDAO {
         try {
 
             String USER = "user_apem";
-            String PASSWROD = "#16*4p3m@";
+            String PASSWROD = "";
             String URL = "jdbc:postgresql://postgresql.cddvfkul0ldi.us-east-1.rds.amazonaws.com/apem_home";
             String DRIVER = "org.postgresql.Driver";
             Class.forName(DRIVER);
